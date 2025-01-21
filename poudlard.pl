@@ -1,4 +1,6 @@
 
+
+
 suspect(neville).
 suspect(ginny).
 suspect(drago).
@@ -31,6 +33,7 @@ trouver_coupable :-
     write('Le coupable est : '), write(X), nl.
 
 % Faits pour les suspects
-guilty(drago).
-% guilty(neville).
-% guilty(ginny).
+% guilty(drago).
+% innocent(neville).
+% innocent(ginny).
+
